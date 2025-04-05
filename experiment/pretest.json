@@ -2,35 +2,103 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "What does NFA stand for in the context of formal languages and automata?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Non-Finite Automaton",
+        "b": "Non-Deterministic Finite Automaton",
+        "c": "Numerical Finite Algorithm",
+        "d": "Necessary Finite Abstraction"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Incorrect. Try again.",
+        "b": "Correct! NFA stands for Non-Deterministic Finite Automaton.",
+        "c": "Incorrect. Try again.",
+        "d": "Incorrect. Try again."
       },
-      "correctAnswer": "a",
+      "correctAnswer": "b",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "In the context of automata theory, what is the primary purpose of converting an NFA to a Regular Expression?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "To create a more complex automaton",
+        "b": "To optimize memory usage",
+        "c": "To represent the accepted language in a concise form",
+        "d": "To add non-deterministic transitions"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Incorrect. Try again.",
+        "b": "Incorrect. Try again.",
+        "c": "Correct! Converting an NFA to a Regular Expression is done to represent the accepted language in a more concise form.",
+        "d": "Incorrect. Try again."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which of the following is a step involved in the conversion of NFA to Regular Expression?",
+      "answers": {
+        "a": "Determinization",
+        "b": "Minimization",
+        "c": "Subset Construction",
+        "d": "Union of Final and Initial States"
+      },
+      "explanations": {
+        "a": "Incorrect. Try again.",
+        "b": "Incorrect. Try again.",
+        "c": "Correct! Subset Construction is a step involved in the conversion of NFA to Regular Expression.",
+        "d": "Incorrect. Try again."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which method is commonly used for converting an NFA into a Regular Expression?",
+      "answers": {
+        "a": "Pumping Lemma",
+        "b": "State Elimination Method",
+        "c": "Pushdown Automata",
+        "d": "Cross Product Method"
+      },
+      "explanations": {
+        "a": "Incorrect. Pumping Lemma is used for proving non-regularity.",
+        "b": "Correct! State Elimination Method is a standard method used for NFA to Regular Expression conversion.",
+        "c": "Incorrect. Pushdown Automata is used for context-free languages.",
+        "d": "Incorrect. This method is not used for NFA to RE conversion."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "In a Regular Expression, what does the Kleene Star (*) operator denote?",
+      "answers": {
+        "a": "One or more repetitions",
+        "b": "Optional occurrence",
+        "c": "Zero or more repetitions",
+        "d": "Concatenation of symbols"
+      },
+      "explanations": {
+        "a": "Incorrect. That's the plus operator (+).",
+        "b": "Incorrect. That's usually represented by '?' in extended regular expressions.",
+        "c": "Correct! The Kleene Star denotes zero or more repetitions of a pattern.",
+        "d": "Incorrect. Concatenation is implied by writing symbols next to each other."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is the result of converting an NFA using the State Elimination Method?",
+      "answers": {
+        "a": "A minimized DFA",
+        "b": "A grammar for context-free language",
+        "c": "A Regular Expression",
+        "d": "A transition table"
+      },
+      "explanations": {
+        "a": "Incorrect. Minimization applies to DFAs, not NFAs.",
+        "b": "Incorrect. Grammar is used for context-free languages, not regular languages.",
+        "c": "Correct! The result of state elimination is a Regular Expression representing the same language.",
+        "d": "Incorrect. A transition table is part of the automaton, not the result of the conversion."
       },
       "correctAnswer": "c",
       "difficulty": "beginner"

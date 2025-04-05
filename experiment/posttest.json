@@ -2,38 +2,106 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "Explain the concept of converting a Non-Deterministic Finite Automaton (NFA) to a Regular Expression (RE).",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "It involves minimizing the number of states in an NFA.",
+        "b": "It is a process of transforming an NFA into an equivalent Regular Expression.",
+        "c": "It focuses on optimizing memory usage in NFAs.",
+        "d": "It deals with the elimination of ε-transitions in an NFA."
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Incorrect. Try again.",
+        "b": "Correct! Converting an NFA to a Regular Expression involves expressing the language accepted by the NFA in a more compact form.",
+        "c": "Incorrect. Try again.",
+        "d": "Incorrect. Try again."
       },
-      "correctAnswer": "a",
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Which step is performed in the conversion of NFA to regular expression?",
+      "answers": {
+        "a": "Subset Construction",
+        "b": "Elimination of ε-transitions",
+        "c": "State removal",
+        "d": "Union of final and initial states"
+      },
+      "explanations": {
+        "a": "Incorrect. Try again.",
+        "b": "Correct! The elimination of ε-transitions is a crucial step in the conversion of NFA to regular expression.",
+        "c": "Incorrect. Try again.",
+        "d": "Incorrect. Try again."
+      },
+      "correctAnswer": "b",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "What is the purpose of the conversion of NFA to regular expression?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "To minimize the number of states",
+        "b": "To optimize memory usage",
+        "c": "To represent language accepted by NFA as a regular expression",
+        "d": "To remove non-determinism"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Incorrect. Try again.",
+        "b": "Incorrect. Try again.",
+        "c": "Correct! The conversion is done to represent the language accepted by NFA in a more concise form as a regular expression.",
+        "d": "Incorrect. Try again."
       },
       "correctAnswer": "c",
-      "difficulty": "beginner"
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Which method is most commonly used to convert an NFA to a Regular Expression?",
+      "answers": {
+        "a": "State Minimization",
+        "b": "Arden's Theorem",
+        "c": "State Elimination Method",
+        "d": "Pumping Lemma"
+      },
+      "explanations": {
+        "a": "Incorrect. State minimization is used in DFA optimization.",
+        "b": "Incorrect. Arden's Theorem is used in RE derivation from equations.",
+        "c": "Correct! State Elimination is a widely used method for NFA to RE conversion.",
+        "d": "Incorrect. Pumping Lemma is used to prove non-regularity."
+      },
+      "correctAnswer": "c",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "What is done in the 'state elimination' method during NFA to RE conversion?",
+      "answers": {
+        "a": "All final states are converted to initial states.",
+        "b": "All transitions are labeled with grammar rules.",
+        "c": "Intermediate states are removed by updating transitions using RE.",
+        "d": "NFA is first converted to a DFA."
+      },
+      "explanations": {
+        "a": "Incorrect. This is not part of the process.",
+        "b": "Incorrect. Grammar rules are not used here.",
+        "c": "Correct! In the state elimination method, states are removed and transitions are updated using RE.",
+        "d": "Incorrect. Direct conversion is done using NFA."
+      },
+      "correctAnswer": "c",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Why is converting an NFA to a Regular Expression useful in theory and applications?",
+      "answers": {
+        "a": "It helps in minimizing the automaton.",
+        "b": "It allows better memory usage in computers.",
+        "c": "It provides a compact algebraic representation of accepted languages.",
+        "d": "It reduces the number of states in a DFA."
+      },
+      "explanations": {
+        "a": "Incorrect. Minimization is a separate concept.",
+        "b": "Incorrect. Memory usage is not the focus here.",
+        "c": "Correct! REs provide a compact and human-readable representation of languages.",
+        "d": "Incorrect. DFAs are not the goal in this context."
+      },
+      "correctAnswer": "c",
+      "difficulty": "intermediate"
     }
   ]
 }
