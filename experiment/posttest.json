@@ -2,106 +2,106 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "Explain the concept of converting a Non-Deterministic Finite Automaton (NFA) to a Regular Expression (RE).",
+      "question": "What does it mean to convert an NFA to a Regular Expression?",
       "answers": {
-        "a": "It involves minimizing the number of states in an NFA.",
-        "b": "It is a process of transforming an NFA into an equivalent Regular Expression.",
-        "c": "It focuses on optimizing memory usage in NFAs.",
-        "d": "It deals with the elimination of ε-transitions in an NFA."
+        "a": "Reducing the number of states in the NFA",
+        "b": "Transforming the NFA into an algebraic form that describes its language",
+        "c": "Replacing nondeterministic choices with deterministic ones",
+        "d": "Optimizing the transitions for faster execution"
       },
       "explanations": {
-        "a": "Incorrect. Try again.",
-        "b": "Correct! Converting an NFA to a Regular Expression involves expressing the language accepted by the NFA in a more compact form.",
-        "c": "Incorrect. Try again.",
-        "d": "Incorrect. Try again."
+        "a": "Incorrect. That refers to minimization, not NFA to RE conversion.",
+        "b": "Correct! Converting to RE means representing the language of the NFA in a compact algebraic form.",
+        "c": "Incorrect. That happens in NFA to DFA conversion, not NFA to RE.",
+        "d": "Incorrect. The purpose is not about performance optimization."
       },
       "correctAnswer": "b",
       "difficulty": "intermediate"
     },
     {
-      "question": "Which step is performed in the conversion of NFA to regular expression?",
+      "question": "What is the primary purpose of converting an NFA into a Regular Expression?",
       "answers": {
-        "a": "Subset Construction",
-        "b": "Elimination of ε-transitions",
-        "c": "State removal",
-        "d": "Union of final and initial states"
+        "a": "To generate a DFA first",
+        "b": "To get a compact and human-readable form of the accepted language",
+        "c": "To replace epsilon transitions with normal transitions",
+        "d": "To minimize the number of final states"
       },
       "explanations": {
-        "a": "Incorrect. Try again.",
-        "b": "Correct! The elimination of ε-transitions is a crucial step in the conversion of NFA to regular expression.",
-        "c": "Incorrect. Try again.",
-        "d": "Incorrect. Try again."
+        "a": "Incorrect. DFA creation is separate.",
+        "b": "Correct! Regular Expressions concisely describe the same language as the NFA.",
+        "c": "Incorrect. This is only a step but not the main purpose.",
+        "d": "Incorrect. Minimization is not the goal of conversion."
       },
       "correctAnswer": "b",
       "difficulty": "beginner"
     },
     {
-      "question": "What is the purpose of the conversion of NFA to regular expression?",
+      "question": "Which method is most commonly used in NFA to RE conversion?",
       "answers": {
-        "a": "To minimize the number of states",
-        "b": "To optimize memory usage",
-        "c": "To represent language accepted by NFA as a regular expression",
-        "d": "To remove non-determinism"
+        "a": "Pumping Lemma",
+        "b": "State Elimination Method",
+        "c": "Subset Construction",
+        "d": "Grammar Derivation"
       },
       "explanations": {
-        "a": "Incorrect. Try again.",
-        "b": "Incorrect. Try again.",
-        "c": "Correct! The conversion is done to represent the language accepted by NFA in a more concise form as a regular expression.",
-        "d": "Incorrect. Try again."
+        "a": "Incorrect. Pumping Lemma proves non-regularity, not conversion.",
+        "b": "Correct! State Elimination is the standard method to derive a RE from an NFA.",
+        "c": "Incorrect. Subset Construction is for NFA to DFA conversion.",
+        "d": "Incorrect. Grammar derivation applies to CFGs, not REs."
       },
-      "correctAnswer": "c",
+      "correctAnswer": "b",
       "difficulty": "intermediate"
     },
     {
-      "question": "Which method is most commonly used to convert an NFA to a Regular Expression?",
+      "question": "In the State Elimination method, what is done at each step?",
       "answers": {
-        "a": "State Minimization",
-        "b": "Arden's Theorem",
-        "c": "State Elimination Method",
-        "d": "Pumping Lemma"
+        "a": "All intermediate states are removed at once",
+        "b": "One intermediate state is removed and its transitions are updated using RE formulas",
+        "c": "The start and final states are merged",
+        "d": "Transition labels are deleted without replacement"
       },
       "explanations": {
-        "a": "Incorrect. State minimization is used in DFA optimization.",
-        "b": "Incorrect. Arden's Theorem is used in RE derivation from equations.",
-        "c": "Correct! State Elimination is a widely used method for NFA to RE conversion.",
-        "d": "Incorrect. Pumping Lemma is used to prove non-regularity."
+        "a": "Incorrect. States are removed one at a time.",
+        "b": "Correct! Each intermediate state is removed, with its paths replaced by equivalent RE-based edges.",
+        "c": "Incorrect. Start and final states stay until the end.",
+        "d": "Incorrect. Transitions are rewritten with RE, not discarded."
       },
-      "correctAnswer": "c",
-      "difficulty": "intermediate"
+      "correctAnswer": "b",
+      "difficulty": "beginner"
     },
     {
-      "question": "What is done in the 'state elimination' method during NFA to RE conversion?",
+      "question": "Which states must always remain until the end of NFA to RE conversion?",
       "answers": {
-        "a": "All final states are converted to initial states.",
-        "b": "All transitions are labeled with grammar rules.",
-        "c": "Intermediate states are removed by updating transitions using RE.",
-        "d": "NFA is first converted to a DFA."
+        "a": "All states with loops",
+        "b": "Only the start and final states",
+        "c": "States that have epsilon transitions",
+        "d": "States with the lowest index"
       },
       "explanations": {
-        "a": "Incorrect. This is not part of the process.",
-        "b": "Incorrect. Grammar rules are not used here.",
-        "c": "Correct! In the state elimination method, states are removed and transitions are updated using RE.",
-        "d": "Incorrect. Direct conversion is done using NFA."
+        "a": "Incorrect. Looping states can be eliminated too.",
+        "b": "Correct! Only start and final states remain for the final expression.",
+        "c": "Incorrect. Epsilon closure is relevant for NFAs, but here we preserve start/final.",
+        "d": "Incorrect. Index numbers don’t matter."
       },
-      "correctAnswer": "c",
-      "difficulty": "intermediate"
+      "correctAnswer": "b",
+      "difficulty": "beginner"
     },
     {
-      "question": "Why is converting an NFA to a Regular Expression useful in theory and applications?",
+      "question": "What is the final output after completing all steps of state elimination?",
       "answers": {
-        "a": "It helps in minimizing the automaton.",
-        "b": "It allows better memory usage in computers.",
-        "c": "It provides a compact algebraic representation of accepted languages.",
-        "d": "It reduces the number of states in a DFA."
+        "a": "A minimized DFA",
+        "b": "A Regular Expression that represents the same language",
+        "c": "A grammar for the same language",
+        "d": "A new NFA with fewer states"
       },
       "explanations": {
-        "a": "Incorrect. Minimization is a separate concept.",
-        "b": "Incorrect. Memory usage is not the focus here.",
-        "c": "Correct! REs provide a compact and human-readable representation of languages.",
-        "d": "Incorrect. DFAs are not the goal in this context."
+        "a": "Incorrect. DFA minimization is unrelated here.",
+        "b": "Correct! The final result is a Regular Expression equivalent to the given NFA.",
+        "c": "Incorrect. Grammars belong to a different representation class.",
+        "d": "Incorrect. The goal is not to rebuild another NFA, but to derive a RE."
       },
-      "correctAnswer": "c",
-      "difficulty": "intermediate"
+      "correctAnswer": "b",
+      "difficulty": "beginner"
     }
   ]
 }
