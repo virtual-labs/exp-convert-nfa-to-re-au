@@ -1,0 +1,107 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "What does NFA stand for in automata theory?",
+      "answers": {
+        "a": "Non-Finite Automaton",
+        "b": "Non-Deterministic Finite Automaton",
+        "c": "Numerical Finite Algorithm",
+        "d": "Necessary Finite Abstraction"
+      },
+      "explanations": {
+        "a": "Incorrect. NFAs are finite machines, not 'Non-Finite'.",
+        "b": "Correct! NFA stands for Non-Deterministic Finite Automaton.",
+        "c": "Incorrect. No such term in automata theory.",
+        "d": "Incorrect. This is not a valid automata concept."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Why do we convert an NFA into a Regular Expression?",
+      "answers": {
+        "a": "To minimize the NFA",
+        "b": "To optimize memory usage",
+        "c": "To represent the accepted language concisely",
+        "d": "To prove context-freeness"
+      },
+      "explanations": {
+        "a": "Incorrect. Minimization applies to DFAs, not NFA→RE conversion.",
+        "b": "Incorrect. Memory optimization is not the purpose here.",
+        "c": "Correct! Regular Expressions concisely describe the same language as the NFA.",
+        "d": "Incorrect. Regular Expressions represent only regular languages, not context-free languages."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "In the State Elimination method, what happens at each step?",
+      "answers": {
+        "a": "All transitions are deleted randomly",
+        "b": "The start and final states are merged",
+        "c": "One intermediate state is removed and transitions are updated",
+        "d": "The alphabet is changed"
+      },
+      "explanations": {
+        "a": "Incorrect. Transitions are never discarded without replacement.",
+        "b": "Incorrect. Start and final states must remain intact.",
+        "c": "Correct! Each intermediate state is removed, updating transitions to preserve paths.",
+        "d": "Incorrect. The alphabet symbols remain the same."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which states always remain in the NFA during the conversion process?",
+      "answers": {
+        "a": "All states with self-loops",
+        "b": "The start and accepting (final) states",
+        "c": "States connected by epsilon transitions",
+        "d": "The states with minimum degree"
+      },
+      "explanations": {
+        "a": "Incorrect. Self-loops can be collapsed during elimination.",
+        "b": "Correct! Only the start and final states remain until the end.",
+        "c": "Incorrect. Epsilon transitions are relevant in epsilon-closure, not for final preservation.",
+        "d": "Incorrect. Node degree doesn’t determine state preservation."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which method is commonly used to convert an NFA into a Regular Expression?",
+      "answers": {
+        "a": "Subset Construction",
+        "b": "State Elimination Method",
+        "c": "Grammar Derivation",
+        "d": "Cross Product Method"
+      },
+      "explanations": {
+        "a": "Incorrect. Subset Construction is used for NFA→DFA conversion.",
+        "b": "Correct! The State Elimination Method is the standard method for NFA→RE conversion.",
+        "c": "Incorrect. Grammar derivation is not used here.",
+        "d": "Incorrect. Cross Product is used to combine automata."
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "What is the final outcome of the NFA to RE conversion process?",
+      "answers": {
+        "a": "A minimized DFA",
+        "b": "A Regular Expression representing the same language",
+        "c": "A context-free grammar",
+        "d": "A new transition table"
+      },
+      "explanations": {
+        "a": "Incorrect. DFAs appear in determinization, not in RE conversion.",
+        "b": "Correct! The end result is a Regular Expression describing the same language.",
+        "c": "Incorrect. Context-free grammars are used for non-regular languages.",
+        "d": "Incorrect. A transition table describes automata, not RE outputs."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    }
+  ]
+}
