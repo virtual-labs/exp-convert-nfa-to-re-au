@@ -11,9 +11,7 @@ Select any basic operation to view its corresponding
 <strong>Regular Expression</strong>.
 </p>
 
-
-
-<h5>Step 1 – Define States</h5>
+<h4>Step 1 – Define States</h4>
 <p>
 Begin by creating or confirming the <strong>states</strong> of your NFA.  
 Mark one state as the <strong>Start</strong> state and at least one as the 
@@ -21,7 +19,7 @@ Mark one state as the <strong>Start</strong> state and at least one as the
 </p>
 <img src="./images/Step1Nfa.png" alt="Step 1 – Define States" style="max-width:100%; height:auto; margin-top:16px;">
 
-<h5>Step 2 – Configure NFA</u></h5>
+<h4>Step 2 – Configure NFA</h4>
 <p>
 Once the states are set, review the automatically generated transitions.  
 When everything is ready, click the <strong>Convert to Regular Expression</strong> 
@@ -29,7 +27,7 @@ button to begin the process.
 </p>
 <img src="./images/Step2Select.png" alt="Step 2 – Configure NFA" style="max-width:100%; height:auto; margin-top:16px;">
 
-<h5>Step 3 – State Elimination</u></h5>
+<h4>Step 3 – State Elimination</h4>
 <p>
 The tool will now guide you through <strong>state elimination</strong>.  
 Intermediate states are removed one by one while updating transitions to 
@@ -47,7 +45,7 @@ to simplify the resulting expression.
 </p>
 <img src="./images/Step3Convert.png" alt="Step 3 – State Elimination" style="max-width:100%; height:auto; margin-top:16px;">
 
-<h5>Step 4 – Final Regular Expression</u></h5>
+<h4>Step 4 – Final Regular Expression</h4>
 <p>
 Once all intermediate states are removed, the edge between the Start and Final 
 nodes will represent the complete <strong>Regular Expression</strong> corresponding 
