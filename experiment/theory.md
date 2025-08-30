@@ -1,6 +1,6 @@
 <h3>Theory</h3>
 
-<h5>Non-Deterministic Finite Automata (NFA)</h5>
+<h4>Non-Deterministic Finite Automata (NFA)</h4>
 <p>
 A <strong>Nondeterministic Finite Automaton (NFA)</strong> is a theoretical machine used in 
 formal language theory to recognize <strong>regular languages</strong>. 
@@ -20,7 +20,7 @@ In an NFA, multiple next states may exist for the same input, including
 path leads from <strong>q₀</strong> to a final state in <strong>F</strong> after consuming the entire input.
 </p>
 
-<h5>Regular Expressions</h5>
+<h4>Regular Expressions</h4>
 <p>
 A <strong>Regular Expression (RE)</strong> is a symbolic representation used to 
 describe a <strong>regular language</strong>. Regular expressions use operators such as:
@@ -35,7 +35,7 @@ Every regular expression corresponds to an NFA, and every NFA can be converted i
 an equivalent RE. In this experiment, we apply the <strong>State Elimination Method</strong>.
 </p>
 
-<h5>State Elimination Method</h5>
+<h4>State Elimination Method</h4>
 <p>
 The <strong>State Elimination Method</strong> converts an NFA into an equivalent 
 RE by systematically removing states while preserving the accepted language. 
@@ -44,7 +44,7 @@ When only the <strong>start state</strong> and a
 represents the final RE.
 </p>
 
-<h5>Algorithm</h5>
+<h4>Algorithm</h4>
 <ol>
   <li><strong>Standardize the NFA</strong>:
     <ul>
@@ -85,7 +85,7 @@ represents the final RE.
   </li>
 </ol>
 
-<h5>Illustration</h5>
+<h4>Illustration</h4>
 <p>
 For example, consider an NFA with states Q = {q0, q1, q2}, where q0 is the start 
 state and q2 is the final state. By applying elimination to q1, we rewrite transitions and finally 
