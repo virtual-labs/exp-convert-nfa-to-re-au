@@ -4,7 +4,7 @@
 | :--: | :----------------: | :----------------------: | :------------------------: | 
 |  1   | Dr. Priyanka Kumar | k_priyanka@cb.amrita.edu | Amrita Vishwa Vidyapeetham |
 |  2   |    Pavithra S P    | pavithrasp@am.amrita.edu | Amrita Vishwa Vidyapeetham |          |    
-|  3   |     RahulGiri      | rahulgiri@am.amrita.edu  | Amrita Vishwa Vidyapeetham |   
+|  3   |     Rahulgiri      | rahulgiri@am.amrita.edu  | Amrita Vishwa Vidyapeetham |   
 |  4   |      Anandi K      |  anandik@am.amrita.edu   | Amrita Vishwa Vidyapeetham | 
 
 
