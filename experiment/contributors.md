@@ -1,11 +1,12 @@
+### Contributors
+
+| SNo. |        Name        |          Email           |         Institute          |
+| :--: | :----------------: | :----------------------: | :------------------------: | 
+|  1   | Dr. Priyanka Kumar | k_priyanka@cb.amrita.edu | Amrita Vishwa Vidyapeetham |
+|  2   |    Pavithra S P    | pavithrasp@am.amrita.edu | Amrita Vishwa Vidyapeetham |          |    
+|  3   |     RahulGiri      | rahulgiri@am.amrita.edu  | Amrita Vishwa Vidyapeetham |   
+|  4   |      Anandi K      |  anandik@am.amrita.edu   | Amrita Vishwa Vidyapeetham | 
 
 
-### Subject Matter Experts
-| SNo. | Name | Email | Institute | ID |
-| :---: | :---: | :---: | :---: | :---: |
-| 1 | name | email | institute | id |
 
-### Developers
-| SNo. | Name | Email | Institute | ID |
-| :---: | :---: | :---: | :---: | :---: |
-| 1 | Anandi k | anandik@am.amrita.edu | Amrita Vishwa Vidyapeetham  | 12230912|
+

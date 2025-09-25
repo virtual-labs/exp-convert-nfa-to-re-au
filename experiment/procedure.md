@@ -1,4 +1,3 @@
-<h3>Procedure</h3>
 
 <p>
 Start by exploring the fundamental concepts by interacting with the basic operations 

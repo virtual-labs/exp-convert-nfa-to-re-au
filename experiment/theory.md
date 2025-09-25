@@ -1,4 +1,4 @@
-<h3>Theory</h3>
+
 
 <h4>Non-Deterministic Finite Automata (NFA)</h4>
 <p>
